@@ -1,0 +1,416 @@
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #CCCC99;
+	font: 90% 'Times New Roman', serif;
+}
+td {
+	font-family: 'Times New Roman', serif;
+}
+th {
+	font-family: 'Times New Roman', serif;
+}
+caption {
+	font-family: 'Times New Roman', serif;
+	font-weight: bold;
+}
+#header {
+	margin: 0 0 0 0;
+	background-color: #999966;
+}
+
+h1 {
+	color: #000000;
+	font-size: 350%;
+	text-align: center;
+	font-family: 'Castellar', sans-serif;
+}
+
+h2 {
+	color: #000000;
+	font-size: 180%;
+}
+h3 {
+	font-size: 120%;
+}
+h4 {
+	font-size: 110%;
+}
+
+table.invisible
+{
+	margin: 1ex;
+	border-collapse: collapse
+}
+table.invisible td
+{
+	padding: 0ex 1ex;
+}
+td.right
+{
+	text-align: right;
+}
+p.baseline {
+	clear: both;
+	font-size: 65%;
+	text-align: center;
+	border-top: 1px solid #999966;
+	margin: 1ex;
+	padding: 1ex;
+    background: #999966;
+}
+hr {
+	height: 20px;
+	border-top: 1px solid #999966;
+	border-right: 1px none #999966;
+	border-bottom: 1px none #999966;
+	border-left: 1px none #999966;
+}
+dt {
+	font-weight: bold;
+	color: #009999;
+}
+blockquote {
+	border: 1px solid #556B2F;
+	padding: 2px 1px;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+.center
+{
+	text-align: center;
+}
+.leftmargin {
+	float: left;
+	border: 0px;
+	margin-right: 1ex;
+	margin-top: .2ex;
+	margin-bottom: .2ex;
+}
+.rightmargin {
+	float: right;
+	border: 0px;
+	margin-left: 3ex;
+	margin-top: .2ex;
+	margin-bottom: .2ex;
+}
+	
+acronym {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+	cursor: help;
+}
+abbr {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+	cursor: help;
+}
+del {
+	color: #999999;
+}
+ins {
+	color: #009999;
+	text-decoration: none;
+}
+
+
+div.pageHeader {
+	width: 831px;
+	margin-left: 4ex;
+	Margin-right: 4ex; 
+	margin-top: 2ex;
+	margin-bottom: 2ex;
+	background: url('secureliberty.jpg') no-repeat;
+	padding: 0 0 0 0px;
+	background-color: #999966;
+	border: 2px solid #000000;
+	height: 250px;
+	font: 'Castellar', sans-serif;
+}
+
+a.BlogButton {
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	white-space: nowrap;
+	margin-right: 3px;
+	margin-top: 3px;
+	background: #336699;
+}
+a.BlogButtonCurr {
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	white-space: nowrap;
+	margin-top: 3px;
+	margin-right: 3px;
+	background: #fff;
+}
+
+a.BlogButton:link,
+a.BlogButton:visited,	
+a.BlogButton:active,
+a.BlogButtonCurr:link,
+a.BlogButtonCurr:visited,	
+a.BlogButtonCurr:active
+{
+	color: #FFFFFF;
+}
+a.BlogButton:hover		{
+	color: #FFFFFF;
+	background: #999966;
+
+	/* text-decoration: underline; */
+}
+a.BlogButtonCurr:hover		{
+	color: #999966;
+	/* text-decoration: underline; */
+}
+
+.pageSubTitle {
+	color: #000000;
+	letter-spacing: 4px;
+	margin-right: 0;
+	vertical-align: right;
+	border: 0px;
+	padding: 0 0 0 420px;
+	font: 95% 'Garramond';
+	font-weight: bold;
+}
+//div.stats{
+	float: right;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+}
+
+/* Styles for main area (left) */
+h2 {
+	margin-left: 8px;
+}
+
+/* Styles for posts */
+.bPosts {
+	vertical-align: top;
+	float: left;
+	width: 60%;
+	background: #999966;
+    margin-left: 2ex;
+    margin-bottom: 8px;
+}
+.bPost, .bPostpublished
+{
+	clear: both;
+	margin-right: 10px;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 2px solid #000000;
+	padding-right: 8px;
+	padding-left: 8px;
+    background: #fff;
+}
+.bSmallHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: #6699CC;
+}
+.bTitle {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.bText {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+}
+.bMore
+{
+	text-align: center;
+}
+.bMore a
+{
+	font-weight: bold;
+	font-size: 110%;
+}
+.bSmallPrint
+{
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+input.bComment, 
+textarea.bComment
+{
+	background-color: #fff;
+	border-width: 1px;
+	border-color: #B54141;
+	border-style: solid;
+	padding: .5ex;
+	width: 80%;
+	float: left;
+	margin: 0;
+}
+select.bComment
+{
+	background-color: #fff;
+	border-width: 2px;
+	border-color: #B54141;
+	border-style: solid;
+	padding: .5ex;
+	width: 100%;
+	margin-right: 1ex;
+}
+fieldset span.notes { 
+   font-size: 80%; 
+   color: #B54141; 
+} 
+
+/* Styles for stats */
+div.statbloc
+{
+	float: left;
+	width: 44%;
+	margin-left: 2%; 
+	margin-right: 0%; 
+	margin-bottom: 2ex;
+	border: 1px solid #B54141;
+}
+div.statbloc h3
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #FFFFFF;
+	text-align: center;
+	background: #6699CC;
+	padding: 1ex;
+}
+
+/* Styles for sidebar (right) */
+.bSideBar {
+	width: 30%;
+	vertical-align: middle;
+	float: right;
+	background: #CCCC99;
+	margin-right: 15px;
+}
+.bSideItem {
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 2px;
+	border-bottom: 2px ridge #999966;
+}
+.bSideItem h3 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.bSideItem ul {
+	margin-left: 8px;
+	padding-left: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.bSideItem ul ul{
+	margin-left: 8px;
+	padding-left: 8px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+.bSideItem form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	
+.bSideItem2 {
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 1px;
+	padding: 0px;
+	font-size: 120%;
+}
+.blogrollmain {
+	background: #CCCC99;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 0px;
+	font-size: 100%;
+}
+.dimmed
+{
+	color: #666633;
+	font-size: 84%;
+}
+input.SearchField
+{
+	background-color: #fff;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	padding: .5ex;
+	width: 96%;
+	margin: 0ex;
+}
+
+/* Styles for Calendar: */
+caption.bCalendarCaption
+{
+	border-left: solid 2px #000000;
+	border-right: solid 2px #000000;
+	border-top: solid 2px #000000;
+	margin: auto;
+	white-space: nowrap;
+	background: #999966;
+}
+table.bCalendarTable
+{
+	margin: auto;
+	font-size: 90%;
+	border: solid 2px #000000;
+	background: #fff;
+}
+tr.bCalendarRow
+{
+	text-align: center;
+}
+th.bCalendarHeaderCell
+{
+	font-size: 84%;
+}
+td.bCalendarCell
+{
+}
+td.bCalendarEmptyCell
+{
+}
+.bCalendarLinkPost
+{
+	font-weight: bold;
+}
+#bCalendarToday {
+	background-color: #DEF;
+}
